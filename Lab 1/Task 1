@@ -1,0 +1,18 @@
+marks = int(input("Enter marks: "))
+s_name = input("Enter student name: ")
+if(marks >= 85):
+  print("Student Name: " + s_name)
+  print("Marks: ", marks)
+  print("Grade: A")
+elif(marks >= 70):
+  print("Student Name: " + s_name)
+  print("Marks: ", marks)
+  print("Grade: B")
+elif(marks >= 50):
+  print("Student Name: " + s_name)
+  print("Marks: ", marks)
+  print("Grade: C")
+else:
+  print("Student Name: " + s_name)
+  print("Marks: ", marks)
+  print("Fail")
