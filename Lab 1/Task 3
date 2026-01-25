@@ -1,0 +1,8 @@
+students = {}
+for i in range(3):
+  name = input("Enter Student Name: ")
+  marks = int(input("Enter Student Marks: "))
+  students[name] = marks
+print("Student Records: ")
+for name, marks in students.items():
+  print(name, " : ", marks)
