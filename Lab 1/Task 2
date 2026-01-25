@@ -1,0 +1,10 @@
+n = int(input("Enter a number: "))
+e_n = 0
+i = 1
+print("Even numbers: ")
+while(i <= n):
+  if(i%2 == 0):
+    print(i)
+    e_n = e_n + 1
+  i = i+1
+print("Total even numbers: ", e_n)
